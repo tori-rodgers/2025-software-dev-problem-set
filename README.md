@@ -20,6 +20,10 @@ Don't try to do this list all at once. Take the time to dig into each question.
 Take the time to study the solutions to the problem, and understand the DS&A concept involved in the solution.
 These are challenging problems and concepts, so completing 1 problem a day is more than enough to help you grow as a programmer. 
 
+**It will usually take 2-3 hours to study and understand a LeetCode Medium level problem.** So don't beat yourself up if you feel you're moving too slow. If you only have 6 hours in a week to study, you'll only have time to build understanding around 2-3 problems, and that's okay! 
+
+The important thing is to keep pushing through the problems week after week.
+
 ## How to engage with these problems
 
 When taking on these problems, you should try to solve them on your own for 15-20 minutes, **but no longer than that**.
@@ -32,15 +36,14 @@ Then, take a 5 minute break. After that break, come back and try to solve the pr
 ## DS&A Learning Loop:
 You'll run this loop whether it's your first time studying a problem, or the 15th.
 
-1. 15-20 minutes -> Try to solve, from memory with the skills you currently have, no outside resources
-2. 30-45 minutes - Study solutions in LeetCode and watch the linked NeetCode solution video, play around with solution code to understand deeper
-logic and how that answer works
+1. 15-20 minutes -> Try to solve, from memory with the skills you currently have, no outside resources (no google, no notes)
+2. 30-45 minutes - Study the solutions available in LeetCode and watch the linked NeetCode solution video. Play around with the solution code you study, changing different pieces of it and running it to see what happens. Take the time to understand the pieces of logic that make this solution work.
 3. 5 minutes - take a short rest to reset short term memory, don't look at your screen at all, get a drink of water and clear your mind
 4. Run the loop again
 
 ## Software Development - Foundational Data Structures & Algorithms
 
-**You may use any programming language you want to solve these problems**.
+**Use Java, C#, JavaScript, or Python to solve problems in this list, depending on your tech career path**.
 
 As you work through the problem set, store a solution file for each problem in the `solutions` directory.
 
