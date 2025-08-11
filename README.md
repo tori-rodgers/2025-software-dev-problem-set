@@ -41,6 +41,12 @@ You'll run this loop whether it's your first time studying a problem, or the 15t
 3. 5 minutes - take a short rest to reset short term memory, don't look at your screen at all, get a drink of water and clear your mind
 4. Run the loop again
 
+## Notice for LaunchCode Candidates
+
+We've seen a resurgence of live coding exercises in the interviews our company partners conduct for Software Developer candidates. 
+
+If you are able to deeply understand the solutions to problems #1-36 in this list, **it will greatly increase your chances of succeeding in these interviews and landing a Software Development job**.
+
 ## Software Development - Foundational Data Structures & Algorithms
 
 **Use Java, C#, JavaScript, or Python to solve problems in this list, depending on your tech career path**.
