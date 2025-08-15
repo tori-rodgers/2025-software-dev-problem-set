@@ -28,10 +28,4 @@ public class SolutionTwo {
     }
 }
 
-/* 
-Arrays.stream(nums) converts the int[] nums array into an IntStream (stream of primitive int values) which supports functional-style operations like distinct.
-.distinct() returns a stream containing only unique values.
-.count() counts how many unique elements are in the stream.
-< nums.length compares the number of unique elements to the original array length.
-*/
                                                                     
