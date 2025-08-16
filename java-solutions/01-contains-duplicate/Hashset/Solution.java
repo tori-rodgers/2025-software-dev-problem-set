@@ -1,19 +1,29 @@
 //Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
 
-import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 
 // Time & Space complexity (O(n)) ✅ 
 
-public class SolutionTwo {
+public class Solution {
 
     public boolean containsDuplicate(int[] nums) {
 
-        return Arrays.stream(nums).distinct().count() < nums.length;
+        Set<Integer> uniqueNums = new HashSet<>();
+
+        for (int num : nums) {
+            if (uniqueNums.contains(num)) {
+                return true;
+            }
+            uniqueNums.add(num);
+        }
+        return false;
     }
 
     public static void main(String[] args) {
 
-        SolutionTwo sol = new SolutionTwo();
+        Solution sol = new Solution();
 
         int[] test1 = {1, 2, 3, 4};
         int[] test2 = {1, 2, 3, 1};
@@ -26,6 +36,4 @@ public class SolutionTwo {
         System.out.println(sol.containsDuplicate(test4));
 
     }
-}
-
-                                                                    
+}                                                     

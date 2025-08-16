@@ -6,7 +6,7 @@ import java.util.Set;
 
 // Time & Space complexity (O(n)) ✅ 
 
-public class SolutionOneNotes {
+public class SolutionNotes {
 
     public boolean containsDuplicate(int[] nums) {  // Method takes one paramater - and array of integers named nums
 
@@ -40,7 +40,7 @@ public class SolutionOneNotes {
                                                     void: doesn't return anything, just runs the code
                                                     main: method the JVM (Java Virtual Machine) looks for to start execution */
 
-        SolutionOneNotes sol = new SolutionOneNotes();      // new Solution() initializes a new object/instance of Solution
+        SolutionNotes sol = new SolutionNotes();      // new Solution() initializes a new object/instance of Solution
 
         int[] test1 = {1, 2, 3, 4};
         int[] test2 = {1, 2, 3, 1};
@@ -54,3 +54,4 @@ public class SolutionOneNotes {
 
     }
 }
+    

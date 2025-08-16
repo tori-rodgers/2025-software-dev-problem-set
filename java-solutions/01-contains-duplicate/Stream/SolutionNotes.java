@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 // Time & Space complexity (O(n)) ✅ 
 
-public class SolutionTwoNotes {
+public class SolutionNotes {
 
     public boolean containsDuplicate(int[] nums) {
 
@@ -17,7 +17,12 @@ public class SolutionTwoNotes {
 
     public static void main(String[] args) {
 
-        SolutionTwoNotes sol = new SolutionTwoNotes();
+        SolutionNotes sol = new SolutionNotes();
+
+        System.out.println(sol.containsDuplicate(new int[] {1, 2, 3, 4}));
+        System.out.println(sol.containsDuplicate(new int[] {1, 2, 3, 1}));
+
+        // or
 
         int[] test1 = {1, 2, 3, 4};
         int[] test2 = {1, 2, 3, 1};
@@ -31,4 +36,3 @@ public class SolutionTwoNotes {
 
     }
 }
-    
