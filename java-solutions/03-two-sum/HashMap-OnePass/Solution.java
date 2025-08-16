@@ -5,6 +5,7 @@ You may assume that every input has exactly one pair of indices i and j that sat
 Return the answer with the smaller index first. */ 
 
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Solution {
@@ -23,5 +24,18 @@ public class Solution {
         }
 
         return new int[] {};
+    }
+
+    public static void main(String[] args) {
+
+        Solution sol = new Solution();
+
+        int[] test1 = sol.twoSum(new int[]{2, 7, 11, 15}, 9);
+        int[] test2 = sol.twoSum(new int[]{3, 2, 4}, 6);
+        int[] test3 = sol.twoSum(new int[]{1, 2, 3}, 7);
+
+        System.out.println(Arrays.toString(test1)); //  [0, 1]
+        System.out.println(Arrays.toString(test2)); //  [1, 2]
+        System.out.println(Arrays.toString(test3)); //  []
     }
 }
