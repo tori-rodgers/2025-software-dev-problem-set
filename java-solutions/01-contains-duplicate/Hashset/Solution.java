@@ -3,9 +3,6 @@
 import java.util.HashSet;
 import java.util.Set;
 
-
-// Time & Space complexity (O(n)) ✅ 
-
 public class Solution {
 
     public boolean containsDuplicate(int[] nums) {
