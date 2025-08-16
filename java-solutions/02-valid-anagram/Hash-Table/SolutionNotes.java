@@ -1,5 +1,8 @@
 // Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
+// Time Complexity O(n + m) ✅                  - One pass through both strings (represented as n and m)
+// Space Complexity O(1) ✅                     - Has Fixed space, only 26 characters at most
+
 public class SolutionNotes {
 
     public boolean isAnagram(String s, String t) {

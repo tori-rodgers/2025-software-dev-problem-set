@@ -2,8 +2,6 @@
 
 import java.util.Arrays;
 
-// Time & Space complexity (O(n)) ✅ 
-
 public class Solution {
 
     public boolean containsDuplicate(int[] nums) {
